@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --menu-color: #rgba(255, 255, 255, .55);
+}
+
+/*NAVBAR*/
+.navbar-expand-lg.navbar-dark {
+    background-color: var(--bs-gray-700) !important;
+}
+
+.navbar-brand-h1 {
+    color: var(--bs-gray-200);
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img {
+    width: 100px;
+    margin-right: rem;
+}
+
+.navbar .navbar.toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar .navbar-nav {
+    text-align: center;
+}
+
+.navbar .navbar-nav a:last-child {
+    color: #009349;
+}
+
+/*imagen*/
+
+.showcase {
+    background-image: url(../images/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--bs-gray-100);
+}
+
+.showcase .shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.showcase .container-flex {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.showcase .content {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+}
+
+.showcase .buttonarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.showcase .buttonarea a {
+    color: var(--gray-100);
+    text-decoration: none;
+}
+
+.showcase .btn {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+.showcase .btn-transparent {
+    border: 1px solid var(--gray-200);
+}
+
+.showcase .btn-transparent:hover {
+background-color: rgba(255, 255, 255, .55);
+color:var(--gray-900);
+border: 1px solid rgba(255, 255, 255, .55);
+transition: 0.5s;
+}
+
+.showcase .btn-solid{
+background-color: #009349;
+border: 1px solid #009349;
+}
+.showcase .btn-solid:hover{
+background-color: rgba(3, 78, 3, 0.5);
+border: 1px solid rgba(4, 36, 4, 0.5);
+color: var(--gray-200);
+transition: 5;
+}
+
+/*Oradores*/ 
+
+.oradores .title {
+text-align: center; 
+}
+
+.title h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.oradores .container-oradores {
+width: 70%;
+margin: 0 auto;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.oradores .card {
+width: 30%;
+min-width: 300px;
+}
+
+
+.oradores .card img {
+width: 100%;
+}
+ 
+.oradores .card :not(img) {
+    padding: 0 1rem;
+}
+ 
+.card .skills {
+margin-top: 1rem;
+display: flex;
+}
+
+.card .skills h6 {
+font-size: 0.8rem;
+font-weight: 700;
+padding: 0.3rem;
+margin-right: 0.5rem;
+margin-bottom: 0;
+}
+
+.card h3 {
+font-size: 1.5rem;
+font-weight: 600;
+padding: 0.3rem;
+}
+
+.card p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.3rem;
+margin-bottom: 1rem;    
+}
+
+.card .skills .btn-amarillo{
+background-color: rgb(255, 187, 0);
+border-radius: 5px;
+}
+
+.card .skills .btn-celeste{
+    background-color: rgb(0, 195, 255);
+    color: white;
+ border-radius: 5px;   
+}
+
+.card .skills .btn-gris{
+background-color: grey;
+color: white;
+border-radius: 5px;
+}
+
+.card .skills .btn-fuxia{
+background-color: rgb(161, 18, 49);
+color: white;
+border-radius: 5px;
+}
+
+/*Imagen Honolulu*/
+
+.container-playa {
+margin-top: 1rem;
+}
+
+.container-playa {
+display: flex;
+}
+
+.container-playa img {
+    width: 50vw;
+    height: auto;
+    margin: 0;
+}
+
+.container-playa .contenido-playa {
+background-color: var(--bs-gray-800);
+color: var(--bs-gray-200);
+padding: 1rem;
+}
+
+.container-playa .contenido-playa h2 {
+font-weight: 100 bold;
+}
+.container-playa .contenido-playa p {
+    font-size: 20px;
+    font-weight: 250;
+    padding: 0.3rem;
+}
+
+.container-playa .btn {
+padding: 0.4rem 0.5rem;
+margin: 0.10rem;
+border-radius: 5px;
+color: var(--bs-gray-100);
+}
+
+.container-playa .btn-transparent {
+    border: 1px solid var(--bs-gray-100);
+}
+
+.container-playa .btn-transparent:hover {
+background-color: rgba(255, 255, 255, .55);
+color: var(--bs-gray-800);
+border: 1px solid rgba(255, 255, 255, .55);
+transition: 0.20s;
+}
+
+
+
+ /*Formulario*/
+ .formulario .titulo {
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom:1rem;
+ }
+
+ .formulario .titulo h3 {
+font-size: 1rem;
+ }
+
+ .formulario .titulo .subrayado {
+text-decoration: underline dotted var(--bs-gray-600);
+ }
+
+ .formulario .contenedor-formulario {
+width: 50vw;
+margin: 0 auto;
+display: flex;
+flex-direction:column;
+ }
+
+.formulario .contenedor-formulario .nombres {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 1rem ;
+}
+
+.formulario .contenedor-formulario .nombre {
+width: 48%;
+padding: 0.2rem 0.1rem;
+border-radius: 5px;
+border: 1px solid var(--bs-gray-400);
+}
+
+.formulario .contenedor-formulario .nombre:focus {
+outline: 1px solid var(--bs-gray-700);
+border-radius: 1px;
+}
+.formulario .contenedor-formulario .acerca-de {
+    border-radius: 5px;
+}
+
+.formulario .contenedor-formulario .btn-enviar {
+width: 100%;
+margin: 1rem 0;
+padding: 0.4rem 0;
+font-size: 1.3rem;
+background-color: #31b409;
+color: var(--bs-gray-100);
+font-weight: 400;
+border-radius: 10px;
+border: none;
+}
+
+h6{
+
+color: var(--bs-gray-600);
+
+}
+.formulario .contenedor-formulario .btn-enviar:hover {
+background-color: #08af5b;
+color: var(--bs-gray-400);
+transition: 1.5s;
+}
+  
+/*footer*/
+
+.footer{
+    background-image: linear-gradient(to right, #033552, #014369);
+}
+
+.footer .contenedor-footer {
+width: 90vw;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer .contenedor-footer a{
+text-decoration: none;
+color: var(--bs-gray-200);
+padding: 1.30rem 0;
+width: 100px;
+text-align: center;
+}
+
+#borrar{
+    width: 100%;
+margin: 1rem 0;
+padding: 0.4rem 0;
+font-size: 1.3rem;
+background-color: #31b409;
+color: var(--bs-gray-100);
+font-weight: 400;
+border-radius: 10px;
+border: none;
+}
+
+#resumen{
+    width: 100%;
+margin: 1rem 0;
+padding: 0.4rem 0;
+font-size: 1.3rem;
+background-color: #31b409;
+color: var(--bs-gray-100);
+font-weight: 400;
+border-radius: 10px;
+border: none;
+}
